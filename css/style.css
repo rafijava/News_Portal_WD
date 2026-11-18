@@ -1,0 +1,52 @@
+body{
+font-family: Arial;
+}
+
+.top-header{
+background:#111;
+color:white;
+padding:6px 20px;
+font-size:14px;
+}
+
+.top-header a{
+color:white;
+margin-left:10px;
+text-decoration:none;
+}
+
+.navbar-nav a:hover{
+color:red !important;
+}
+
+.breaking{
+background:red;
+color:white;
+padding:10px;
+}
+
+.news-card img{
+height:200px;
+object-fit:cover;
+}
+
+.zoom-img{
+width:100%;
+transition:0.4s;
+}
+
+.zoom-img:hover{
+transform:scale(1.2);
+}
+
+.footer{
+background:#222;
+color:white;
+padding:40px;
+}
+
+.breadcrumb-area{
+background:#f4f4f4;
+padding:20px;
+margin-bottom:30px;
+}
